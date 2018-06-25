@@ -1,0 +1,8 @@
+Important points to note down 
+
+
+1)dont put feign in pom if you are not using it 
+2)Open the service provider and thenopen the consumer 
+The consumer consumes provider so will not work if it osnot opened 
+3)Currently this microservice uses RestTemplate as rest client instead of feign
+
